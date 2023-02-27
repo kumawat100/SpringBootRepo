@@ -1,5 +1,8 @@
 package com.springboot.calculator.Calculator;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public interface CalculatorInterface {
     
     int num1 = 0;
