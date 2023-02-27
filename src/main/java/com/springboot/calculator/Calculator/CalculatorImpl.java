@@ -1,6 +1,6 @@
 package com.springboot.calculator.Calculator;
 
-import org.springframework.boot.Component;
+import org.springframework.stereotype.Component;
 
 @Component
 public class CalculatorImpl implements CalculatorInterface {
